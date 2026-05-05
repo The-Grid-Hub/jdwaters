@@ -95,7 +95,7 @@ export default function Contacts() {
               </span>
             </div>
 
-            <div className="contact-detail-item">
+            {/* <div className="contact-detail-item">
               <span className="contact-detail-label">Website</span>
               <span className="contact-detail-value">
                 <a href={`https://${CONTACT.website}`} target="_blank" rel="noopener noreferrer"
@@ -103,7 +103,7 @@ export default function Contacts() {
                   {CONTACT.website}
                 </a>
               </span>
-            </div>
+            </div> */}
 
             <div className="contact-detail-item">
               <span className="contact-detail-label">Business Hours</span>
