@@ -36,8 +36,33 @@ export const metadata: Metadata = {
   icons: {
     icon: '/images/logo.png',
     apple: '/images/logo.png',
+    shortcut: '/images/logo.png',
   },
   themeColor: '#0D2040',
+  openGraph: {
+    title: 'JD Waters Energy Limited | Integrated Oilfield Development & Energy Services',
+    description:
+      'JD Waters Energy Limited delivers technically sound, cost-efficient, and sustainable energy projects across the upstream and midstream value chain — from field development planning to production operations.',
+    url: 'https://jdwaters.org',
+    siteName: 'JD Waters Energy Limited',
+    images: [
+      {
+        url: '/images/logo.png',
+        width: 300,
+        height: 180,
+        alt: 'JD Waters Energy Limited',
+      },
+    ],
+    locale: 'en_NG',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'JD Waters Energy Limited',
+    description:
+      'Integrated oilfield development and energy services — field development planning, EPC, drilling, production operations, and project management.',
+    images: ['/images/logo.png'],
+  },
 }
 
 export default function RootLayout({

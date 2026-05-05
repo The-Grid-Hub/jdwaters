@@ -48,7 +48,7 @@ export default function Header() {
           <a href="#hero" className="flex items-center gap-3 no-underline flex-shrink-0" aria-label="JD Waters Energy">
             <div className="relative w-[120px] h-[44px]">
               <Image
-                src="/images/logo.png"
+                src="/images/logo-white.png"
                 alt="JD Waters Energy"
                 fill
                 className="object-contain object-left"
