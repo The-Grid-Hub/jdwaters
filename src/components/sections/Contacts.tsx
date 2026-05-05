@@ -77,14 +77,14 @@ export default function Contacts() {
               </span>
             </div>
 
-            <div className="contact-detail-item">
+            {/* <div className="contact-detail-item">
               <span className="contact-detail-label">Phone</span>
               <span className="contact-detail-value">
                 <a href={CONTACT.phoneHref} className="hover:text-cyan transition-colors no-underline" style={{ color: 'rgba(255,255,255,0.78)' }}>
                   {CONTACT.phone}
                 </a>
               </span>
-            </div>
+            </div> */}
 
             <div className="contact-detail-item">
               <span className="contact-detail-label">Email</span>

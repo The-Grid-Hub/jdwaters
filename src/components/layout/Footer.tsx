@@ -95,12 +95,12 @@ export default function Footer() {
                 <span className="block text-[#17A8CE] text-xs font-bold uppercase tracking-wider mb-1">Address</span>
                 {CONTACT.address}
               </li>
-              <li className="text-sm" style={{ color: 'rgba(255,255,255,0.62)' }}>
+              {/* <li className="text-sm" style={{ color: 'rgba(255,255,255,0.62)' }}>
                 <span className="block text-[#17A8CE] text-xs font-bold uppercase tracking-wider mb-1">Phone</span>
                 <a href={CONTACT.phoneHref} className="no-underline hover:text-[#17A8CE] transition-colors" style={{ color: 'rgba(255,255,255,0.62)' }}>
                   {CONTACT.phone}
                 </a>
-              </li>
+              </li> */}
               <li className="text-sm" style={{ color: 'rgba(255,255,255,0.62)' }}>
                 <span className="block text-[#17A8CE] text-xs font-bold uppercase tracking-wider mb-1">Email</span>
                 <a href={`mailto:${CONTACT.email}`} className="no-underline hover:text-[#17A8CE] transition-colors" style={{ color: 'rgba(255,255,255,0.62)' }}>

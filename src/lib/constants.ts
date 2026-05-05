@@ -147,8 +147,6 @@ export const CLIENTS = [
 
 export const CONTACT = {
   address:  '38, Jesus Street, Off Eneka Road, Obio-Akpor, Rivers State, Nigeria',
-  phone:    '08062192111',
-  phoneHref: 'tel:+2348062192111',
   email:    'info@jdwaters.org',
   website:  'jdwaters.org',
   hours:    'Mon – Fri: 8:00 am – 5:00 pm WAT',
